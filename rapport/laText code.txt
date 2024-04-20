@@ -1,0 +1,135 @@
+
+\documentclass[12pt]{report}
+\usepackage[hmargin=2cm,vmargin=2cm]{geometry} 
+
+\usepackage{layout}
+%\usepackage[francais]{babel}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{amssymb,amsmath,latexsym}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{caption}
+\usepackage{mathrsfs}
+\usepackage{ae,aecompl}
+\usepackage{moreverb}
+\usepackage{nopageno}
+\usepackage{hyperref}
+%\usepackage{lstlisting}
+
+%----------------------------------------------------
+\newtheorem{thm}{\textbf{\textit{Theorem}}}[section]
+\newtheorem{df}[thm]{\textit{\textbf{D\'eefinition}}}
+\newtheorem{cor}[thm]{\textbf{\textit{Corolaire}}}
+\newtheorem{lem}[thm]{\textbf{\textit{Lemme}}}
+\newtheorem{prop}[thm]{\textit{\textbf{Proposition}}}
+\newtheorem{prt}[thm]{\textit{\textbf{Propri\'et\'es}}}
+\newtheorem{rem}[thm]{\textbf{\textit{Remarque}}}
+\newtheorem{expl}[thm]{\textbf{\textit{Exemple}}}
+\newtheorem{dem}[thm]{\textbf{\textit{d\'emenstration}}}
+%----------------------------------------------------
+\newcommand{\Nn}{{\mathbb N}}
+\newcommand{\Rr}{{\mathbb R}}
+
+
+\hypersetup{
+	colorlinks=true,
+	citecolor=blue,
+	filecolor=black,
+	linkcolor=blue,
+	urlcolor=black
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% Page de Titre %%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+\begin{center}
+	
+%\vfill
+\includegraphics[width=0.75\textwidth]{}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{}
+\begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{image.png}
+        
+        \label{fig:enter-label}
+    \end{figure}
+        \caption{Enter Caption}
+    \label{fig:enter-label}
+\end{figure}
+%\vspace{1cm}
+
+\large{\textbf{Universit\'ee Ibn Zohr\\
+Facult\'e Polydisciplinaire de Ouarzazate\\
+D\'epartement de Math\'ematiques, Informatique et Gestion\\
+Fili\`ere Sciences Math\'ematiques et Informatique
+}}
+
+\vfill
+
+\vfill
+\begin{flushright}
+Num\'ero d'ordre :.........
+\end{flushright}
+
+\fbox{
+\begin{minipage}{0.9\textwidth}
+\centering \Large\textbf{Utilisation de  la technologie vocale pour favoriser l'inclusion des personnes handicapees dans la societe numerique}
+\end{minipage}
+}
+
+\vfill
+\large{ Projet tutor\'e pr\'esent\'e par }\\
+\textbf{Bady Abdelhakim \\ Ben kassi Zakariy\\ Sabir Salma \\ Hebaz Samia }
+
+\vspace{1.5cm}
+
+\underline{ Sous la direction de }
+
+Prof. Omari.k
+
+\vfill
+
+
+Soutenu le : ... Mai 2024
+
+\end{center}
+
+\vfill
+
+\noindent Devant le jury :
+
+
+\bigskip
+
+\begin{tabular}{ll}
+Prof. Omari.k  & Professeur \`a la Facult\'ee Polydisciplinaire de Ouarzazate\\
+Prof.... & Professeur \`a la Facult\'ee Polydisciplinaire de Ouarzazate
+\end{tabular}
+
+\vfill
+\begin{center}
+\emph{Ann\'ee Universitaire : 2024-2025}
+\end{center}
+
+
+\vfill
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}
