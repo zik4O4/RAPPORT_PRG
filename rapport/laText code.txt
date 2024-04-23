@@ -90,7 +90,7 @@ Num\'ero d'ordre :.........
 
 \vfill
 \large{ Projet tutor\'e pr\'esent\'e par }\\
-\textbf{Bady Abdelhakim \\ Ben kassi Zakariy\\ Sabir Salma \\ Hebaz Samia }
+\textbf{Bady Abdelhakim \\ Benkassi Zakariya\\ Sabir Salma \\ Hebaz Samia }
 
 \vspace{1.5cm}
 
